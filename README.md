@@ -25,10 +25,13 @@ mks_robin_nano35 		- without the MKS WIFI enabled maple is NOT required
 Do NOT BUILD with mks_robin_nano35_maple, because it will not work!
 
 Notes:
+
 o FILAMENT_RUNOUT_SENSOR, LCD_BED_LEVELING can not be enabled due to TFT_LVGL_UI.
+
 o Touchscreen does not work because to utilize TFT_LVGL_UI the screen resolution must be 480x320 to
 utilize TFT_LVGL_UI. The MKS_ROBIN_TFT43 is 480x272 resolution. So the whole screen won't fit and 
 doesn't seem to be able to be calibrated by M995 over pronterface.
+
 o Without the MKS WIFI enabled maple is NOT required (because it will not work!)
 
 ********************************************************************************
@@ -43,22 +46,28 @@ mks_robin_nano_v1v2				- without the MKS WIFI enabled
 Do NOT BUILD with mks_robin_v1v2_maple, because it will not work!
 
 Notes:
+
 o FILAMENT_RUNOUT_SENSOR, LCD_BED_LEVELING can not be enabled due to TFT_LVGL_UI.
+
 o Touchscreen does not work because to utilize TFT_LVGL_UI the screen resolution must be 480x320 to
 utilize TFT_LVGL_UI. The MKS_ROBIN_TFT43 is 480x272 resolution. So the whole screen won't fit and 
 doesn't seem to be able to be calibrated by M995 over pronterface.
+
 o Without the MKS WIFI enabled maple is NOT required (because it will not work!)
 
 Install/Run:
 
 Marlin 2.0.9.1
+
 1. copy Marlin-2.0.9.1.TT_BlueR-Plus_LVGL\.pio\build\mks_robin_nano35 assets folder and 
 Robin_nano43.bin file to the SD Card.
 
 Marlin 2.1.2
+
 1. copy Marlin-2.1.2.TT_BlueR-Plus_LVGL\.pio\build\mks_robin_nano_v1v2 assets folder and 
 Robin_nano43.bin file to the SD Card.
 goto 2
 
 2. With BLU-5 off insert the SD card.
+
 3. Apply power, and view bin file and assets get loaded by the bootloader.
