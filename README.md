@@ -4,9 +4,7 @@ OVERVIEW:
 1) I found Mks-Robin-Nano-Marlin2.0-Firmware-master on gethub and modified to 
 build and kinda-work.
 2) I created Marlin-2.1.2.TT_BlueR-Plus_LVGL from the current Marlin 2.1.2 and
-modified to build and kinda-work.
-3) I found the Original Two Trees BLU-5 BLUER PLUS V2.0.2-V2. My only update 
-was a separate English translation of the Chinese language config file.
+modified to build and kinda-work.
 
 CONCLUSIONS:
 1) Marlin does not support the MKS_ROBIN_TFT43 at it's real 480x272 resolution. 
