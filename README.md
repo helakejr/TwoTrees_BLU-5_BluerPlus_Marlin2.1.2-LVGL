@@ -4,7 +4,8 @@ OVERVIEW:
 1) I found Mks-Robin-Nano-Marlin2.0-Firmware-master on gethub and modified to 
 build and kinda-work.
 2) I created Marlin-2.1.2.TT_BlueR-Plus_LVGL from the current Marlin 2.1.2 and
-modified to build and kinda-work.
+modified to build and kinda-work.
+
 
 CONCLUSIONS:
 1) Marlin does not support the MKS_ROBIN_TFT43 at it's real 480x272 resolution. 
@@ -23,16 +24,6 @@ Build with Platformio or Auto Build Marlin extensions on Visual Studio Code:
 mks_robin_nano35 		- without the MKS WIFI enabled maple is NOT required
 
 Do NOT BUILD with mks_robin_nano35_maple, because it will not work!
-
-Notes:
-
-o FILAMENT_RUNOUT_SENSOR, LCD_BED_LEVELING can not be enabled due to TFT_LVGL_UI.
-
-o Touchscreen does not work because to utilize TFT_LVGL_UI the screen resolution must be 480x320 to
-utilize TFT_LVGL_UI. The MKS_ROBIN_TFT43 is 480x272 resolution. So the whole screen won't fit and 
-doesn't seem to be able to be calibrated by M995 over pronterface.
-
-o Without the MKS WIFI enabled maple is NOT required (because it will not work!)
 
 ********************************************************************************
 Marlin-2.1.2.TT_BlueR-Plus_LVGL.zip
